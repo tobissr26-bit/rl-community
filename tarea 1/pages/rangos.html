@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conocé RL Community, una comunidad dedicada a Rocket League con información del juego, rangos, jugadores y novedades.">
+    <meta name="keywords" content="Rocket League, rangos, jugadores, plataformas, RL Community">
+    <link rel="icon" type="image/jpeg" href="../assets/images/simbolo%20rl.jpg">
+    <title>Rangos |  RL Community </title>
+</head>
+<body>
+     <header>
+         <h1>RL Community</h1>
+            <nav class="nav-links" aria-label="Navegación principal">
+                 <a href="./index.html" class="active" aria-current="page">INICIO</a>
+                 <a href="./rangos.html">RANGOS</a>
+                 <a href="./comunidad.html">COMUNIDAD</a>
+            </nav>
+     </header>
+     <main>
+        <section>
+            <h2>Registro de jugadores</h2>
+            <p>
+                 Registrá tus datos para formar parte de nuestra comunidad
+                y consultar tu información de jugador.
+             </p>
+             
+            <form  onsubmit="manejarenvio()">
+
+                <label for="jugador">Nombre de jugador (Epic ID):</label>
+                <input type="text" id="jugador" 
+                 placeholder="Ejemplo: Tobi123" required>
+       
+                 <br>
+
+                <label for="plataforma">Tu plataforma:</label>
+                <select id="plataforma" required>
+                    <option value="">Seleccioná tu plataforma</option>
+                    <option value="pc">PC</option>
+                    <option value="playstation">PlayStation</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="switch">Nintendo Switch</option>
+               </select>
+
+                 <br>
+
+                 <label for="rango">Tu rango actual:</label>
+                 <select id="rango" required>
+                    <option value="">Seleccioná tu rango</option>
+                    <option value="bronce">Bronce</option>
+                    <option value="plata">Plata</option>
+                    <option value="oro">Oro</option>
+                    <option value="platino">Platino</option>
+                    <option value="diamante">Diamante</option>
+                    <option value="campeon">Campeón</option>
+                    <option value="gran-campeon">Gran Campeón</option>
+                    <option value="supersonic-legend">Supersonic Legend</option>
+                 </select>
+
+                 <br>
+
+                 <input type="checkbox" id="acepto"  required>
+                <label for="acepto">
+                Acepto que mis datos de jugador se muestren en la comunidad.
+                </label>
+
+                     <br>
+
+                <button type="submit">Registrarme</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Rangos de la comunidad</h2>
+
+            <p>
+                Consultá los rangos de nuestros jugadores,
+                sus nombres y las plataformas en las que juegan.
+            </p>
+
+            <table border="1">
+                <caption>Jugadores de RL Community</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Rango</th>
+                        <th scope="col">Nombre del jugador</th>
+                        <th scope="col">Plataforma</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Grand champion</td>
+                        <td>Ŧobi</td>
+                        <td>PC</td>
+                    </tr>
+
+                    <tr>
+                        <td>Supersonic Legend</td>
+                        <td>raggeo</td>
+                        <td>PlayStation</td>
+                    </tr>
+
+                    <tr>
+                        <td>Champion</td>
+                        <td>almooost</td>
+                        <td>Xbox</td>
+                    </tr>
+
+                    <tr>
+                        <td>Platinum</td>
+                        <td>luckychill</td>
+                        <td>Nintendo Switch</td>
+                    </tr>
+
+                    <tr>
+                        <td>Grand Champion</td>
+                        <td>polar</td>
+                        <td>PC</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+        </section>
+
+        <section>
+             <p>En Rocket League, los jugadores se clasifican en diferentes rangos según su nivel de habilidad y rendimiento en las partidas competitivas. Cada rango representa una etapa de progreso y permite conocer aproximadamente el nivel de cada jugador. Los rangos van desde Bronce, Plata,Oro,Platino, Diamante, Campeón, Gran Campeón y Supersonic Legend, el nivel más alto del juego. ¡Mejorá tus habilidades, subí de rango y alcanzá la cima de la competencia! </p>
+             <img src="../assets/images/current-rank-distribution-on-a-more-even-one-v0-4egcgqr0p21d1 - copia.webp" alt="Rangos de la comunidad" width="500" height="215" >
+             <p>El porcentaje de jugadores en cada rango grafica lo complicado que puede hacer subir de rango y lo competitivo que es el juego. A medida que los jugadores avanzan en los rangos, se enfrentan a oponentes más habilidosos y experimentados, lo que hace que cada victoria sea más gratificante y cada derrota sea una oportunidad para aprender y mejorar.</p>
+
+
+       </section>
+            
+       <section>
+          <h2>Aprendé más sobre los rangos</h2>
+
+           <p>
+               ¿Querés subir de rango en Rocket League? Mirá esta guía para conocer más sobre el sistema competitivo y mejorar tus habilidades.
+           </p>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/watch?v=A8ecmBOz3W4"
+                title="Guía de rangos de Rocket League"
+                allowfullscreen>
+            </iframe>
+
+    
+     <section>
+        <h2>RL Community en números</h2>
+
+        <ul>
+            <li>Jugadas destacadas: 25</li>
+            <li>Rangos competitivos: 8</li>
+            <li>Modos de juego: 3</li>
+            <li>Plataformas disponibles: PC, PlayStation y Xbox</li>
+        </ul>
+
+         <p>Estas cifras son ilustrativas y se pueden actualizar
+          a medida que crece la comunidad.</p>
+     </section>
+
+
+    </main>
+
+
+
+    <footer>
+        <p>________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+          <h2>RL Community - Sitio creado por fans de Rocket League.</h2>
+        <p>tu lugar para vivir Rocket League</p>
+         <nav aria-label="Navegación del pie de página">
+            <a href="./index.html">Inicio</a> |
+            <a href="./rangos.html">Rangos</a> |
+            <a href="./comunidad.html">Comunidad</a> |
+         <p><small>© 2026 RL Community.</small></p>
+    </footer>  
+</body>
+</html>

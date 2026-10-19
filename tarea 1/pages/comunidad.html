@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubrí highlights, tutoriales y novedades de Rocket League en RL Community.">
+      <meta name="keywords" content="Rocket League, inicio, comunidad, noticias, actualizaciones">
+      <link rel="icon" type="image/jpeg" href="../assets/images/simbolo%20rl.jpg">
+    <title>Comunidad |  RL Community</title>
+</head>
+
+<body>
+    <header>
+        <h1>RL Community</h1>
+
+            <nav class="nav-links" aria-label="Navegación principal">
+                <a href="./index.html" class="active" aria-current="page">INICIO</a>
+                <a href="./rangos.html">RANGOS</a>
+                <a href="./comunidad.html">COMUNIDAD</a>
+           </nav>
+    </header>
+     <main>
+        <section>
+            <h2>Comunidad</h2>
+                <p>
+                    Descubrí las novedades, los cambios de jugabilidad y el contenido nuevo que llega a Rocket League.
+                </p>
+                     <a href="https://www.rocketleague.com/news?lang=es-mx" target="_blank" rel="noopener noreferrer">
+                      Visitar la página oficial
+                     </a>
+       </section>
+
+
+       <section>
+         <h2>Highlights de la comunidad</h2>
+             <p>
+                Descubrí las mejores jugadas, goles y momentos destacados de la comunidad de Rocket League. Compartí tus propias jugadas y descubrí lo que otros jugadores están logrando en el juego.
+            </p>
+
+             <h3> Player : Ŧobi.  (yo) </h3>
+                <video src="../assets/videos/1014.mp4"  controls width="700" height="400"></video>  
+                
+
+             <h3> Player : raggeo</h3>
+                <video src="../assets/videos/videoplaybackclips.mp4"  controls width="700" height="400"></video>  
+                    <br>
+                <video src="../assets/videos/videoplaybackclips2.mp4"  controls width="700" height="400"></video>  
+               
+       </section>
+
+            
+      <section>
+        <h2>Desafío de la semana</h2>
+
+            <h3>Desafío: gol de flip reset + musty + double tap</h3>
+
+                 <p>
+                    Esta semana te proponemos marcar un gol de flip reset + musty + double tap
+                    y compartir tu mejor intento con la comunidad.
+                </p>
+
+               <h4>Reglas del desafío</h4>
+                <ol>
+                    <li>Entrá a una partida o al modo entrenamiento.</li>
+                    <li>Intentá marcar un gol de flip reset + musty + double tap.</li>
+                    <li>Grabá tu jugada.</li>
+                    <li>Subí el video usando nuestro formulario.</li>
+                </ol>
+
+                <p>¿Te animás a completar el desafío?</p>
+  
+       </section>
+
+
+      <section>
+
+        <h2>Consejos, tutoriales y más</h2>
+            <video src="../assets/videos/videoplayback.mp4"  controls width="700" height="400"></video>
+                
+                <p>Video sobre los 10 mejores tips para mejorar en rocket league</p>
+    
+            <video src="../assets/videos/videoplayback  rosdri.mp4"  controls width="700" height="400"></video>
+            
+                <p>Video sobre las mejores 5 formas para mejorar defendiendo en rocket league</p>
+     </section>
+       
+    <section>
+        <h2>Compartí tus mejores jugadas</h2>
+
+            <p>
+               Subí tus mejores goles, jugadas, capturas o videos y compartí tus experiencias con la comunidad de Rocket League.
+           </p>
+
+        <form  onsubmit="manejarenvio()">
+
+
+             <label for="nombre">Nombre de jugador:</label>
+             <input type="text" id="nombre" 
+               placeholder="Tu nombre de jugador" required>
+
+             <br>
+
+            <label for="categoria">Tipo de publicación:</label>
+            <select id="categoria"  required>
+                <option value="">Seleccioná una categoría</option>
+                <option value="jugadas">Mejores jugadas</option>
+                <option value="capturas">Capturas de pantalla</option>
+                <option value="tutoriales">Tutoriales</option>
+                <option value="otros">Otros</option>
+           </select>
+
+                <br>
+    
+            <label for="archivo">Seleccioná una imagen o video:</label>
+            <input type="file" id="archivo" 
+               accept="image/*,video/*" required>
+
+                <br>
+
+            <label for="descripcion">Descripción de la publicación:</label>
+        
+           <textarea id="descripcion" 
+                  rows="5" cols="40"
+                  placeholder="Contanos qué sucede en tu jugada..."
+                  required>
+          </textarea>
+
+                <br>
+
+         <button type="submit">Subir publicación</button>
+
+      </form>
+
+    </section>
+
+
+    <section>
+        <h2>Próximos torneos</h2>
+
+        <table border="1">
+            <caption>Calendario de RL Community</caption>
+
+            <thead>
+                <tr>
+                    <th>Torneo</th>
+                    <th>Modo</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+
+             <tbody>
+                 <tr>
+                    <td>Copa RL</td>
+                    <td>3 vs. 3</td>
+                    <td>Por anunciar</td>
+                </tr>
+                 <tr>
+                     <td>Desafío de duelos</td>
+                     <td>1 vs. 1</td>
+                     <td>Por anunciar</td>
+                 </tr>
+                 <tr>
+                    <td>Copa de amigos</td>
+                    <td>2 vs. 2</td>
+                    <td>Por anunciar</td>
+                </tr>
+              </tbody>
+        </table>
+   </section>
+   <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+            <summary>¿Qué es RL Community?</summary>
+                <p>Es una comunidad dedicada a los jugadores
+                de Rocket League.</p>
+        </details>
+
+        <details>
+            <summary>¿Cómo puedo compartir una jugada?</summary>
+                <p>Entrá en la sección Comunidad y completá
+                el formulario correspondiente.</p>
+         </details>
+
+         <details>
+             <summary>¿Qué significan los rangos?</summary>
+                <p>Representan el nivel competitivo
+                de cada jugador.</p>
+        </details>
+     </section>
+ 
+ </main>   
+
+    <footer>
+          <p>________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+          <h2>RL Community - Sitio creado por fans de Rocket League.</h2>
+          <p>tu lugar para vivir Rocket League</p>
+          <nav aria-label="Navegación del pie de página">
+            <a href="./index.html">Inicio</a> |
+            <a href="./rangos.html">Rangos</a> |
+            <a href="./comunidad.html">Comunidad</a> |
+            <p><small>© 2026 RL Community.</small></p>
+    </footer>
+</body>
+</html>
+
+
